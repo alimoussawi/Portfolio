@@ -169,7 +169,7 @@ left: 0;
 
   background: #95a5a6;
   grid-column:1/4;
-  grid-row: 10/34;
+  grid-row: 11/35;
 margin-top: 10px;
 overflow: hidden;
 padding-top: 20px;
@@ -291,7 +291,7 @@ transition: .5s;
 
 .projects{
   grid-column: 1/4;
-grid-row:35/48;
+grid-row:36/49;
 background: #f1f1f1;
 text-align: center;
 box-shadow: 0 0 20px #00000070;
