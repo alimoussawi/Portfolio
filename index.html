@@ -1,169 +1,213 @@
-<html lang="en" dir="ltr">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148875658-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ali Moussawi</title>
+    <!--google fonts-->
 
-  gtag('config', 'UA-148875658-1');
-</script>
-    <meta charset="utf-8">
-    <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "style.css" />
-    <script src="https://kit.fontawesome.com/1ed2bf9735.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <!--materlialize icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!--materlialize css and js-->
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!--custom css-->
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <div class="navbar-fixed">
+    <section class="navbar">
+        <nav class="nav-fixed">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">Ali Msw</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="">Skills</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">About me</a></li>
+                <li><a href="">Education</a></li>
+                <li><a href="">Contact</a></li>
 
-    <div class="wrapper">
-      <main class="main">
-      <p>Hello, My name is Ali AlMoussawi</p>
-      <p> I am a backend web developper, Here's what i can do !</p>
-      </main>
-      <div class="profiles">
-      <a class="btn" href="https://github.com/alimoussawi" target="_blank">
-      <i class="fab fa-github"></i>
-      </a>
-      <a class="btn" href="https://www.linkedin.com/in/ali-moussawi" target="_blank">
-      <i class="fab fa-linkedin"></i>
-      </a>
-      <a class="btn" href="https://drive.google.com/file/d/1gjYTY_qP69CDTL0D2anxUf44t2rn-amT/view?usp=sharing" target="_blank">
-      <i class="fas fa-id-card"></i>
-      </a>
-      </div>
-      <div class="skills">
-        <div class="header">
-        <h1>My Skills</h1>
-        </div>
-        <div class="container">
-         <div class="skill-box">
-           <div class="skill-title">
-             <div class="img">
-               <img src="img/java.png" class="skill-icon">
-             </div>
-             <h3>Java</h3>
-           </div>
-           <p>Good understanding of java core, object oriented principles, Exception handeling, Collection API .
-            </p>
-        </div>
-        <div class="skill-box">
-          <div class="skill-title">
-            <div class="img">
-              <img src="img/spring.svg" class="skill-icon">
+            </ul>
             </div>
-            <h3>Java Spring</h3>
-          </div>
-          <p>Basic understanding of java spring framework, Used Spring boot, Spring security, Spring Mvc and Spring data in a couple of projects including Course Finder API which allow me to improve my understanding of the framework .
-           </p>
-       </div>
-       <div class="skill-box">
-         <div class="skill-title">
-           <div class="img">
-             <img src="img/mysql.png" class="skill-icon">
-           </div>
-           <h3>My SQL</h3>
-         </div>
-         <p>Throught out most of my projects, My SQL database was my first choise, i have also used SQLITE in Debt Manager project since i needed an embeded, light weight database, but since university introduction to databases courses were focused on MYSQL, i have some kind of preference for it .
-          </p>
-      </div>
-      <div class="skill-box">
-        <div class="skill-title">
-          <div class="img">
-            <img src="img/c++.png" class="skill-icon">
-          </div>
-          <h3>C++</h3>
-        </div>
-        <p>university programming courses where mostly on the basis of C++, in addition we learned how to use C++ WIN32 API to create desktop application for windows platform .
-         </p>
-     </div>
-     <div class="skill-box">
-       <div class="skill-title">
-         <div class="img">
-           <img src="img/wpf.png" class="skill-icon">
-         </div>
-         <h3>C#-WPF</h3>
-       </div>
-       <p>My first try with WPF was an attempt to escape the pain of creating a university project which is a  desktop application for windows using WIN32 API, since then and WPF is my first choise when it comes to desktop, and i developped a good understanding of it and for XAML Throught out a couple of projects.
-        </p>
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+          </ul>
+    </section>
     </div>
-    <div class="skill-box">
-      <div class="skill-title">
-        <div class="img">
-          <img src="img/html.png" class="skill-icon">
-        </div>
-        <h3>HTML</h3>
-      </div>
-      <p>Basic knowledge on how to use HTML, Css to create static website, used Bootstrap mostly when i needed put up fastly a good user interface for my sites.
-       </p>
-   </div>
-      </div>
-      </div>
-      <div class="about">
-          <div class="top-section">
-            <img src="img/me.png" alt="me">
-            <div class="name">
-             Ali<br>
-             <span>AlMoussawi</span>
+    <section class="about">
+        <div class="row">
+            <div class="intro col l12 m12 s12">
+                <h1 class="center-align ">Hey, I'm Ali</h1>
+                <p class="center-align">A <i class="material-icons" style="font-size: 4rem;">laptop_chromebook</i> engineer who loves to code</p>
+                <div class="row">
+                <div class="col l6 offset-l3 m6 offset-m3 s12 center-align">
+                  <button class="pr-btn btn-large waves-effect waves-light">Projects</button>
+                  <button class="rs-btn btn-large waves-effect waves-light">Resume</button>
+                  <i class="fas fa-laptop-code"></i>
+                </div>
+                
+              </div>
             </div>
-          </div>
-         <div class="info-section">
-          <h2> About
-            <div class="border"></div>
-          </h2>
-            <p>
-              A 3rd year computer engineering student currently studying in Ukraine, My contry of origin is Lebanon, I have a lot of passion and a strong interest for software development, I consider myself a "forever student" so i spend most of my free time exploring new techs and trying to build something more than academic foundation, Always up for a challenge, Reach out to <b>ali.aam.msw@gmail.com</b> to connect.
-             </p>
-          <h2> Social Media
-            <div class="border"></div>
-          </h2>
-          <div class="s-m">
-            <a href="https://www.facebook.com/aam.ali.msw" target="_blank" class="fab fa-facebook-f"></a>
-            <a href="https://www.instagram.com/ali_a_moussawi/" target="_blank" class="fab fa-instagram"></a>
-            <a href="" target="_blank" class="fab fa-telegram"></a>
-            <a href="https://api.whatsapp.com/send?phone=380660804903&text=&source=&data=" target="_blank" class="fab fa-whatsapp"></a>
-          </div>
-         </div>
-      </div>
-    <div class="projects">
-    <div class="inner-width">
-      <h1>My Projects</h1>
-      <div class="pro">
-      <div class="pe">
-        <img src="img/debt.png">
-        <div class="p-name">Debt Manager</div>
-        <div class="p-des">Desktop App dedicated for a customer local shop to manage clients records and more</div>
-        <div class="p-sm">
-         <a href="https://github.com/alimoussawi/Debt-Manager" target="_blank"><i class="fab fa-github"></i></a>
-         <a href="#"><i class="far fa-images"></i></a>
         </div>
-      </div>
-      <div class="pe">
-        <img src="img/shop.png">
-        <div class="p-name">Store Manager</div>
-        <div class="p-des">Desktop App to manage store inventory developped as a course project for a university subject</div>
-        <div class="p-sm">
-         <a href="https://github.com/alimoussawi/Store-Manager" target="_blank"><i class="fab fa-github"></i></a>
-         <a href="#"><i class="far fa-images"></i></a>
-        </div>
-      </div>
-      <div class="pe">
-        <img src="img/job.png">
-        <div class="p-name">Jobs finder</div>
-        <div class="p-des">A small Web App with 2 types of user,employers and job seekers, created to explore how java Servlets works</div>
-        <div class="p-sm">
-         <a href="https://github.com/alimoussawi/MavenDemo" target="_blank"><i class="fab fa-github"></i></a>
-         <a href="#"><i class="far fa-images"></i></a>
-        </div>
-      </div>
-
-
-      </div>
-    </div>
-    </div>
-
+    <!--fixed social-->    
+  <div class="fixed-action-btn">
+  <a class="btn-floating btn-large black">
+    <i class="large material-icons">account_circle</i>
+  </a>
+  <ul>
+    <li><a class="btn-floating black"><img src="images/insta.svg"></a></li>
+    <li><a class="btn-floating white"><img src="images/github.svg"></a></li>
+    <li><a class="btn-floating white"><img src="images/linkedIn.svg"></a></li>
+    <li><a class="btn-floating black"><i class="material-icons">description</i></a></li>
+  </ul>
   </div>
+    </section>
+
+    <hr>
+    <section class="skills">
+      <h1 class="center-align text-bold">Skills</h1> 
+      <ul id="tabs-swipe-demo" class="tabs center-align">
+        <li class="tab col s3"><a href="#Languages">Languages</a></li>
+        <li class="tab col s3"><a href="#FrameWorks">FrameWorks</a></li>
+        <li class="tab col s3"><a href="#Others">Others</a></li>
+      </ul>
+      <div id="Languages" class="col l12 m12 s12">
+        <div class="row">
+          <div class="col l3 m6 s12 ">
+            <div class="center-align">    
+              <div class="card">
+                <img src="images/java.svg">   
+                <p class="card-heading">Java</p> 
+             </div>    
+            </div> 
+          </div>    
+          <div class="col l3 m6 s12 ">
+            <div class="center-align">    
+              <div class="card">
+                <img src="images/javascript.svg">   
+                <p class="card-heading">JavaScript</p>  
+             </div>    
+            </div> 
+          </div>        
+          <div class="col l3 m6 s12 ">
+            <div class="center-align">    
+              <div class="card">
+                <img src="images/typescript.svg">   
+                <p class="card-heading">Typescript</p>  
+             </div>    
+            </div> 
+          </div> 
+          <div class="col l3 m6 s12 ">
+            <div class="center-align">    
+              <div class="card">
+                <img src="images/sql.svg">   
+                <p class="card-heading">SQL</p>  
+             </div>    
+            </div> 
+          </div>    
+        </div>
+      </div>
+      <div id="FrameWorks" class="col l12 m12 s12 ">
+        <div class="row "> 
+          <div class="col l6 m6 s12">
+                      <div class="center-align">    
+                        <div class="card">
+                          <img src="images/spring.svg">   
+                          <p class="card-heading">Spring</p>  
+                       </div>    
+                      </div> 
+             </div>  
+           <div class="col l6 m6 s12 ">
+                  <div class="center-align">    
+                        <div class="card">
+                          <img src="images/angular.svg">   
+                          <p class="card-heading">Angular</p>  
+                       </div>    
+                   </div> 
+              </div>
+          </div>
+      </div>
+      <div id="Others" class="col l12 m12 s12">
+        <div class="row">
+          <div class="col l3 m6 s12 ">
+            <div class="center-align">    
+              <div class="card">
+                <img src="images/html.svg">   
+                <p class="card-heading">HTML</p>  
+             </div>    
+            </div> 
+          </div>    
+          <div class="col l3 m6 s12 ">
+            <div class="center-align">    
+              <div class="card">
+                <img src="images/css.svg">   
+                <p class="card-heading">CSS</p>
+             </div>    
+            </div> 
+          </div>
+          <div class="col l3 m6 s12 ">
+            <div class="center-align">    
+              <div class="card">
+                <img src="images/bootstrap.svg">   
+                <p class="card-heading">Bootstrap</p>  
+             </div>    
+            </div> 
+          </div>
+          <div class="col l3 m6 s12 ">
+            <div class="center-align">    
+              <div class="card">
+                <img src="images/thymeleaf.svg">   
+                <p class="card-heading">Thymeleaf</p>  
+             </div>    
+            </div> 
+          </div>
+          <div class="col l3 m6 s12 ">
+            <div class="center-align">    
+              <div class="card">
+                <img src="images/mysql.svg">   
+                <p class="card-heading">MySQL</p>  
+             </div>    
+            </div> 
+          </div>
+          <div class="col l3 m6 s12 ">
+            <div class="center-align">    
+              <div class="card">
+                <img src="images/firebase.svg">   
+                <p class="card-heading">Firebase</p>  
+             </div>    
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+    
   </body>
+  <!--JQeury-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="./js/loader.js"></script>
 </html>
+
+
+
+<!--
+    <div class="intro-right col l6 m6 s12">
+                <img src="./images/me.jpg" class="responsive-img" src="cool_pic.jpg">
+            </div>
+-->
