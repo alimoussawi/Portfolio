@@ -29,7 +29,7 @@
         <nav class="nav-fixed">
             <div class="nav-wrapper">
               <a href="#" class="brand-logo">Ali Msw</a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="">Skills</a></li>
                 <li><a href="">Projects</a></li>
@@ -41,10 +41,19 @@
             </div>
           </nav>
         
-          <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">JavaScript</a></li>
+          <ul id="slide-out" class="sidenav ">
+            <li><div class="user-view">
+              <div class="background">
+              </div>
+              <a ><img class="circle" src="images/me.jpg"></a>
+              <a ><span class="white-text name">Ali Moussawi</span></a>
+              <a><span class="white-text email">ali.aam.msw@gmail.com</span></a>
+            </div></li>
+            <li><a href=""> <i class="material-icons">keyboard</i>Skills</a></li>
+            <li><a href=""> <i class="material-icons">web</i>Projects</a></li>
+            <li><a href=""> <i class="material-icons">fingerprint</i>About me</a></li>
+            <li><a href=""> <i class="material-icons">school</i>Education</a></li>
+            <li><a href=""> <i class="material-icons">contact_mail</i>Contact</a></li>
           </ul>
     </section>
     </div>
@@ -57,7 +66,6 @@
                 <div class="col l6 offset-l3 m6 offset-m3 s12 center-align">
                   <button class="pr-btn btn-large waves-effect waves-light">Projects</button>
                   <button class="rs-btn btn-large waves-effect waves-light">Resume</button>
-                  <i class="fas fa-laptop-code"></i>
                 </div>
                 
               </div>
@@ -89,7 +97,7 @@
         <div class="row">
           <div class="col l3 m6 s12 ">
             <div class="center-align">    
-              <div class="card">
+              <div class="card ">
                 <img src="images/java.svg">   
                 <p class="card-heading">Java</p> 
              </div>    
@@ -194,7 +202,94 @@
         </div>
       </div>
     </section>
-    
+    <hr>
+    <section class="projects" >
+      <h1 class="center-align text-bold">Some <span> things</span> I've built</h1> 
+      <div class="pr1 row z-depth-4">
+        <div class="col l6 m6 s12 ">
+          <h2 class="center-align"></span>BUG TRAKCER <span><i class="material-icons">bug_report</i></h2>
+          <p class="center-align flow-text">A web app that illustrate some functionalities of bug tracking softwares</p>
+          <div class="row techs">
+            <div class="col l3 m3 s3">
+              <img src="images/spring.svg" alt="list item 1" />
+            </div>
+            <div class="col l3 m3 s3">
+              <img src="images/mysql.svg" alt="list item 1" />
+            </div>
+            <div class="col l3 m3 s3">
+              <img src="images/thymeleaf.svg" alt="list item 1" />
+            </div>
+            <div class="col l3 m3 s3">
+              <img src="images/bootstrap.svg" alt="list item 1" />
+            </div>
+          </div>
+        </div>
+        <div class="col l6 m6 s12">
+          <img class="materialboxed" src="images/bt/bugTracker.png">
+          <div class="row">
+            <div class="col l12 m12 s12 center-align">
+              <button class="demoBtn btn-large waves-effect waves-light">Demo</button>
+              <button class="codeBtn btn-large waves-effect waves-light">Code</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pr2 row z-depth-4">
+        <div class="col l6 m6 s12">
+          <h2 class="center-align">English School <i class="material-icons">school</i></h2>
+          <p class="center-align flow-text">A simple web site for a language school, available in both English and Russian language</p>
+          <div class="row techs">
+            <div class="col l4 m4 s4">
+              <img src="images/angular.svg" alt="list item 1" />
+            </div>
+            <div class="col l4 m4 s4">
+              <img src="images/html.svg" alt="list item 1" />
+            </div>
+            <div class="col l4 m4 s4">
+              <img src="images/css.svg" alt="list item 1" />
+            </div>
+          </div>
+        </div>
+        <div class="col l6 m6 s12">
+          <img class="materialboxed" src="images/eee/eeeMockUp.png">
+          <div class="row">
+            <div class="col l12 m12 s12 center-align">
+              <button class="demoBtn btn-large waves-effect waves-light">Demo</button>
+              <button class="codeBtn btn-large waves-effect waves-light">Code</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pr3 row z-depth-4">
+        <div class="col l6 m6 s12">
+          <h2 class="center-align">TeleLikar <i class="material-icons">healing</i></h2>
+          <p class="center-align flow-text">A web application where doctors and clients can connect. TeleLikar allows clients to book an appointemt with a doctor and have a video meeting with them</p>
+          <div class="row techs ">
+            <div class="col l3 m3 s3">
+              <img src="images/angular.svg" alt="list item 1" />
+            </div>
+            <div class="col l3 m3 s3">
+              <img src="images/firebase.svg" alt="list item 1" />
+            </div>
+            <div class="col l3 m3 s3">
+              <img src="images/html.svg" alt="list item 1" />
+            </div>
+            <div class="col l3 m3 s3">
+              <img src="images/bootstrap.svg" alt="list item 1" />
+            </div>
+          </div>
+        </div>
+        <div class="col l6 m6 s12">
+          <img class="materialboxed" src="images/eee/eeeMockUp.png">
+          <div class="row">
+            <div class="col l12 m12 s12 center-align">
+              <button class="demoBtn btn-large waves-effect waves-light">Demo</button>
+              <button class="codeBtn btn-large waves-effect waves-light">Code</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
   <!--JQeury-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

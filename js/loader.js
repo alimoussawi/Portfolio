@@ -1,6 +1,11 @@
 $(document).ready(()=>{
-    $('.sidenav').sidenav();
+    $('.sidenav').sidenav({
+  
+    });
     $('.fixed-action-btn').floatingActionButton();
     $('.tabs').tabs();
+    $('.materialboxed').materialbox();
+    $('.slider').slider();
+    $('.carousel').carousel();
 
 });

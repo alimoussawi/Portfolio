@@ -1,145 +1,246 @@
 /* css reset*/
 html {
-    box-sizing: border-box;
-    font-size: 16px;
-
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
-  }
-  
-  ol, ul {
-    list-style: none;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-.nav-fixed{
-    box-shadow: none;
-    border-bottom: 1px solid black;
-}
-.nav-wrapper{
-    background-color: #ffffff;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-.nav-wrapper a{
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
-.about{
-    margin: 5%;
-    margin-top: 10%;
-    
-}
-.intro{
-    padding: 2%;
-    margin-top: auto;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-.intro .pr-btn{
-    background-color: black;
-    font-weight: bold;
-    margin-right: 5%;
-    margin-bottom: 10%;
-    transition: 0.5s;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
 }
-.intro .pr-btn:hover{
-    background-color: white;
-    color: black;
-    border: solid 1px black;
 
+ol,
+ul {
+  list-style: none;
 }
 
-.intro .rs-btn{
-    background-color: white;
-    color: black;
-    border: solid 1px black;
-    font-weight: bold;
-    margin-right: 5%;
-    margin-bottom: 10%;
-    transition: 0.5s;
+img {
+  max-width: 100%;
+  height: auto;
 }
-.intro .rs-btn:hover{
-    background-color: black;
-    color: white;
+.nav-fixed {
+  box-shadow: none;
+  border-bottom: 1px solid black;
 }
-.intro h1{
-    margin: 5%;
-    font-size: 50px;
-    font-weight: bolder;
-    color: black;
+.sidenav-overlay{
+  z-index: 99; 
 }
-.intro p{
-    margin:5%;
-    font-size: 24px;
-    letter-spacing: 2px;
-    font-weight: bold;
-    color: black;
+.background{
+  background-color: black;
 }
-.skills{
-    margin: 10%;
+.nav-wrapper {
+  background-color: #ffffff;
+  padding-left: 5%;
+  padding-right: 5%;
 }
-.skills h1{
-    margin-bottom: 5%;
-    font-size: 50px;
-    font-weight: bolder;
-    color: black;
+.nav-wrapper a {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about {
+  margin: 5%;
+  margin-top: 10%;
+}
+.intro {
+  padding: 2%;
+  margin-top: auto;
+}
+
+.intro .pr-btn {
+  background-color: black;
+  font-weight: bold;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  transition: 0.5s;
+}
+.intro .pr-btn:hover {
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+}
+
+.intro .rs-btn {
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  font-weight: bold;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  transition: 0.5s;
+}
+.intro .rs-btn:hover {
+  background-color: black;
+  color: white;
+}
+.intro h1 {
+  margin: 5%;
+  font-size: 50px;
+  font-weight: bolder;
+  color: black;
+}
+.intro p {
+  margin: 5%;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: black;
+}
+.skills {
+  margin: 10%;
+}
+.skills h1 {
+  margin-bottom: 5%;
+  font-size: 50px;
+  font-weight: bolder;
+  color: black;
 }
 .skills .card {
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 2rem 0;
-    transition: 0.5s;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2rem 0;
+  transition: 0.5s;
 }
 .card-heading {
-    font-size: 2rem;
-    color: black;
-    margin-top: 1.8rem;
+  font-size: 2rem;
+  color: black;
+  margin-top: 1.8rem;
 }
 .skills .card:hover {
-    background-color: black;
-    cursor: pointer;
+  background-color: black;
+  cursor: pointer;
 }
 
-.skills .card:hover .card-heading{
-    color: white;
+.skills .card:hover .card-heading {
+  color: white;
 }
-.tabs .tab a{
-    background-color: white;
-    color: black;
-    font-weight: bold;
+.tabs .tab a {
+  background-color: white;
+  color: black;
+  font-weight: bold;
 }
 .tabs .tab a:hover {
-    background-color:black;
-    color:white;
+  background-color: black;
+  color: white;
 }
 .tabs .tab a.active {
-    background-color:white;
-    /*Custom Background Color While Active*/
-    color:black;
-    /*Custom Text Color While Active*/
-    
-  }
+  background-color: white;
+  /*Custom Background Color While Active*/
+  color: black;
+  /*Custom Text Color While Active*/
+}
 .tabs .tab a:focus.active {
-    background-color:white;
-    /*Custom Background Color While Active*/
-    color:black;
-    /*Custom Text Color While Active*/
-    
-  }
+  background-color: white;
+  /*Custom Background Color While Active*/
+  color: black;
+  /*Custom Text Color While Active*/
+}
 .tabs .indicator {
-    background-color:black;
+  background-color: black;
+}
+.projects {
+  margin: 10%;
+}
+.projects h1 {
+  margin-bottom: 5%;
+  font-size: 50px;
+  font-weight: bolder;
+  color: black;
+}
+.projects h1 span {
+  background-color: black;
+  border-radius: 20px;
+  padding: 1%;
+  color: white;
+}
+.projects .techs{
+  margin-top: 10%;
+}
+.projects .demoBtn {
+  background-color: black;
+  font-weight: bold;
+  margin-right: 3%;
+  margin-bottom: 10%;
+  transition: 0.5s;
+}
+.projects .codeBtn {
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  font-weight: bold;
+  margin-right: 3%;
+  margin-bottom: 10%;
+  transition: 0.5s;
+}
+
+.projects h2 {
+  margin-bottom: 5%;
+  font-size: 45px;
+  font-weight: bolder;
+  color: black;
+}
+.projects p {
+  margin: 5%;
+  text-align: justify;
+  color: black;
+}
+.projects .pr1 {
+  padding: 5%;
+  border: black 1px solid;
+  border-radius: 20px;
+  margin-top: 15%;
+}
+.projects .pr2 {
+  padding: 5%;
+  border: black 1px solid;
+  border-radius: 20px;
+  margin-top: 15%;
+}
+.projects .pr3 {
+  padding: 5%;
+  border: black 1px solid;
+  border-radius: 20px;
+  margin-top: 15%;
+}
+
+
+
+@media (max-width: 375px) {
+  .projects .demoBtn {
+    font-size: 12px;
+    margin-top: 10%;
+  }
+  .projects .codeBtn {
+    font-size: 12px;
+    margin-top: 10%;
+  }
+
+  .projects h2 {
+    margin-bottom: 5%;
+    font-size: 25px;
+  }
+}
+@media (max-width: 1024px) {
+  .projects h2 {
+    margin-bottom: 5%;
+    font-size: 35px;
+  }
 }
