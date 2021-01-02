@@ -54,8 +54,7 @@ img {
   font-size: 20px;
   font-weight: bold;
 }
-
-.about {
+.land {
   margin: 5%;
   margin-top: 10%;
 }
@@ -103,6 +102,10 @@ img {
   font-weight: bold;
   color: black;
 }
+.intro p .material-icons{
+  font-size: 4rem;
+}
+
 .skills {
   margin: 10%;
 }
@@ -111,6 +114,9 @@ img {
   font-size: 50px;
   font-weight: bolder;
   color: black;
+}
+.skills h1 .material-icons{
+  font-size: 3rem;
 }
 .skills .card {
   background-color: white;
@@ -159,6 +165,10 @@ img {
 .projects {
   margin: 10%;
 }
+.pr{
+  transition: background-color 1s;
+
+}
 .projects h1 {
   margin-bottom: 5%;
   font-size: 50px;
@@ -178,6 +188,7 @@ img {
   background-color: black;
   font-weight: bold;
   margin-right: 3%;
+  margin-top: 3%;
   margin-bottom: 10%;
   transition: 0.5s;
 }
@@ -187,6 +198,7 @@ img {
   border: solid 1px black;
   font-weight: bold;
   margin-right: 3%;
+  margin-top: 3%;
   margin-bottom: 10%;
   transition: 0.5s;
 }
@@ -224,13 +236,52 @@ img {
 
 
 @media (max-width: 375px) {
-  .projects .demoBtn {
+  .intro h1{
+    font-size: 40px;
+  }
+  .intro p{
+    font-size: 20px;
+  }
+  .intro p .material-icons{
+    font-size: 20px;
+  }
+  .intro .pr-btn{
+    font-size: 10px;
+  }
+  .intro .rs-btn{
+    font-size: 10px;
+  }
+  .intro .pr-btn .material-icons{
     font-size: 12px;
+  }
+  .intro .rs-btn .material-icons{
+    font-size: 12px;
+  }
+  .skills h1{
+    font-size: 25px;  
+  }
+  .skills h1 .material-icons{
+    font-size: 25px;  
+  }
+  .projects h1 {
+    font-size: 20px;  
+  }
+  .projects h1 span{
+    border-radius: 10px;
+  }
+  .projects .demoBtn {
+    font-size: 10px;
     margin-top: 10%;
   }
   .projects .codeBtn {
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 10%;
+  }
+  .projects .demoBtn .material-icons{
+    font-size: 10px;
+  }
+  .projects .codeBtn .material-icons{
+    font-size: 10px;
   }
 
   .projects h2 {
@@ -243,4 +294,9 @@ img {
     margin-bottom: 5%;
     font-size: 35px;
   }
+}
+
+
+:root {
+  --xyz-duration-default:0.5s
 }
