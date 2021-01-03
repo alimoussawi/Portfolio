@@ -232,10 +232,76 @@ img {
   border-radius: 20px;
   margin-top: 15%;
 }
+.about{
+  margin: 10%;
+  margin-top: 20%;
+  padding: 5%;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 60%, rgba(255,255,255,1) 60%);
+}
+.about .left{
+  border: 5px solid white;
+  border-radius: 50px 1px;
+  padding: 5%;
+}
+.about .right{
+  padding: 5%;
+}
 
-
-
-@media (max-width: 375px) {
+.about .right img{
+  border-radius: 1px 50px;
+  height: 100%;
+  max-width: unset;
+  width: 450px;
+}
+.about h1{
+  margin-bottom: 5%;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+}
+.about p{
+  margin: 5%;
+  color: white;
+  text-align: justify;
+}
+.education{
+  margin: 10%;
+  margin-top: 20%;
+  padding: 5%;
+  background-color: black;
+  color: white;
+}
+.education h1{
+  margin-bottom: 5%;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.education li{
+  color: black;
+}
+.education li h2{
+  font-weight: bolder;
+}
+.education li p{
+  margin-top: 2% !important;
+}
+.education li .date{
+ font-style: italic;
+}
+.education li .edu{
+  font-weight: bold;
+ }
+@media (max-width: 425px) {
+  .skills{
+    margin-top: 25%;
+  }
+  .projects{
+    margin-top: 25%;    
+  }
+  .about{
+    margin-top: 25%;
+  }
   .intro h1{
     font-size: 40px;
   }
@@ -283,10 +349,28 @@ img {
   .projects .codeBtn .material-icons{
     font-size: 10px;
   }
-
   .projects h2 {
     margin-bottom: 5%;
     font-size: 25px;
+  }
+  .about{
+    background: white;
+  }
+  .about .left{
+    border: 5px solid black;
+  }
+  .about .right{
+    margin-top:10%;
+  }
+  .about .right img{
+    width: 100%;
+  }
+  .about h1{
+    font-size: 25px;
+    color: black;
+  }
+  .about p{
+    color: black;
   }
 }
 @media (max-width: 1024px) {
@@ -294,9 +378,28 @@ img {
     margin-bottom: 5%;
     font-size: 35px;
   }
+  .about{
+    background: white;
+
+  }
+  .about .left{
+    border: 5px solid black;
+  }
+  .about .right img{
+    width: 100%;
+  }
+  .about h1{
+    font-size: 35px;
+    color: black;
+  }
+  .about p{
+    color: black;
+  }
 }
 
-
-:root {
-  --xyz-duration-default:0.5s
+@media (min-width: 2000px) {
+  .skills{
+    background-color: blue;
+  }
 }
+

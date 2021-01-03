@@ -8,7 +8,6 @@ $(document).ready(()=>{
     $('.fixed-action-btn').floatingActionButton();
     $('.tabs').tabs();
     $('.materialboxed').materialbox();
-    $('.slider').slider();
-    $('.carousel').carousel();
+    $('.slider').slider();    
 });
 
