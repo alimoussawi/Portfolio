@@ -8,6 +8,8 @@ $(document).ready(()=>{
     $('.fixed-action-btn').floatingActionButton();
     $('.tabs').tabs();
     $('.materialboxed').materialbox();
-    $('.slider').slider();    
+    $('.slider').slider();
+    $('input, textarea').characterCounter();
+    
 });
 
