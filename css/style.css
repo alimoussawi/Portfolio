@@ -265,6 +265,12 @@ img {
   border-radius: 20px;
   margin-top: 15%;
 }
+.projects .pr4 {
+  padding: 5%;
+  border: black 1px solid;
+  border-radius: 20px;
+  margin-top: 15%;
+}
 .about{
   margin: 10%;
   margin-top: 20%;
@@ -272,16 +278,16 @@ img {
   background: rgb(0,0,0);
   background: linear-gradient(90deg, rgba(0,0,0,1) 60%, rgba(255,255,255,1) 60%);
 }
-.about .left{
+.about .left-part{
   border: 5px solid white;
   border-radius: 50px 1px;
   padding: 5%;
 }
-.about .right{
+.about .right-part{
   padding: 5%;
 }
 
-.about .right img{
+.about .right-part img{
   border-radius: 1px 50px;
   height: 100%;
   max-width: unset;
@@ -417,13 +423,13 @@ img {
   .about{
     background: white;
   }
-  .about .left{
+  .about .left-part{
     border: 5px solid black;
   }
-  .about .right{
+  .about .right-part{
     margin-top:10%;
   }
-  .about .right img{
+  .about .right-part img{
     width: 100%;
   }
   .about h1{
@@ -432,6 +438,10 @@ img {
   }
   .about p{
     color: black;
+  }
+  .education h1{
+    font-size: 25px;
+
   }
   .contact h1{
     font-size: 25px;
@@ -446,10 +456,10 @@ img {
     background: white;
 
   }
-  .about .left{
+  .about .left-part{
     border: 5px solid black;
   }
-  .about .right img{
+  .about .right-part img{
     width: 100%;
   }
   .about h1{
@@ -462,8 +472,51 @@ img {
 }
 
 @media (min-width: 2000px) {
-  .skills{
-    background-color: blue;
+  .intro h1{
+    font-size: 80px;
   }
+  .intro p{
+    font-size: 50px;
+  }
+  .skills h1{
+    font-size: 80px;
+  }
+  .skills .tabs a{
+    font-size: 25px;
+  }
+  .skills .card p{
+    font-size: 50px;
+  }
+  .projects h1{
+    font-size: 80px;
+  }
+  .projects h2{
+    font-size: 70px;
+  }
+  .projects p{
+    font-size: 40px;
+  }
+  .about h1{
+    font-size: 80px;
+  }
+  .about p{
+    font-size: 25px;
+  }
+  .education h1{
+    font-size: 80px;
+  }
+  .education li h2{
+    font-size: 30px !important;
+  }
+  .education li p{
+    font-size: 24px !important;
+  }
+  .contact h1{
+    font-size: 80px;
+  }
+  .input-field label {
+    font-size: 20px;
+  }
+  
 }
 

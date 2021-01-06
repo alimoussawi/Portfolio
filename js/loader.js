@@ -1,11 +1,13 @@
 $(document).ready(()=>{
     var scroll = new SmoothScroll('a[href*="#"]', {
-        speed: 1000,
-        easing:'easeInQuad',
+        speed: 300,
+        easing:'easeOut',
         topOnEmptyHash: true,
     });
     $('.sidenav').sidenav();
-    $('.fixed-action-btn').floatingActionButton();
+    $('.fixed-action-btn').floatingActionButton({
+        hoverEnabled:false,
+    });
     $('.tabs').tabs();
     $('.materialboxed').materialbox();
     $('.slider').slider();
@@ -13,3 +15,20 @@ $(document).ready(()=>{
     
 });
 
+const sr = ScrollReveal({
+    distance: '30px',
+    duration: 2000,
+    reset: true,
+});
+sr.reveal(`.land, .things`, {
+    origin: 'top',
+    interval: 200,
+});
+sr.reveal(`.pr1, .pr3, .left-part`, {
+    origin: 'left',
+    interval: 200,
+});
+sr.reveal(`.pr2, .pr4, .collection`, {
+    origin: 'right',
+    interval: 200,
+});
