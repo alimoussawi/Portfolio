@@ -3,6 +3,7 @@ $(document).ready(()=>{
         speed: 300,
         easing:'easeOut',
         topOnEmptyHash: true,
+        offset:100
     });
     $('.sidenav').sidenav();
     $('.fixed-action-btn').floatingActionButton({
@@ -20,7 +21,7 @@ const sr = ScrollReveal({
     duration: 2000,
     reset: true,
 });
-sr.reveal(`.land, .things`, {
+sr.reveal(`.land, .contact`, {
     origin: 'top',
     interval: 200,
 });
